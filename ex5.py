@@ -12,7 +12,7 @@ def insertion_sort(noList):
 
 while True:
 		try:
-			rawInput = input("Enter a list of numbers, or X to exit:")
+			rawInput = input("Enter a list of numbers, or X to exit:").strip()
 			if rawInput == "X":
 				break
 			else:
